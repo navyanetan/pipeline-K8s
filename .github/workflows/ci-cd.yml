@@ -22,4 +22,5 @@ jobs:
             pip install -r requirements.txt
         - name: test
           run: |
-            echo "installation and build test complete"
+            cd python-app
+            pytest 
